@@ -1,3 +1,4 @@
+// curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
 export function curry(fn: Function): Function {
   const arity = fn.length;
 
