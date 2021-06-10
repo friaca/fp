@@ -1,6 +1,6 @@
-import { curry } from '../lib/curry';
+import curry from '../lib/curry';
 
-describe('curry', () => {
+describe('currying', () => {
   it('curries functions with multiple arguments', () => {
     const sum = (a: number, b: number, c: number) => a + b + c;
     const curried = curry(sum)(1);

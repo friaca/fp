@@ -1,5 +1,5 @@
 // curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
-export function curry(fn: Function): Function {
+export default function curry(fn: Function): Function {
   const arity = fn.length;
 
   return function $curry(...args: any[]): any {
