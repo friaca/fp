@@ -19,7 +19,7 @@ const filter = curry((f: Function, xs: any) => xs.filter(f));
 
 /**
  * `reduce` receives a function that receives T and V (accumulator, current) and returns V,
- * then receives V as a initial value, then receives a T array and finally returns a V array 
+ * then receives V as a initial value, then receives a T array and finally returns a V  
  */
 
 // reduce :: ((b, a) -> b) -> b -> [a] -> b
