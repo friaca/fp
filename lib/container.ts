@@ -5,7 +5,6 @@
 
 /**
  * This Container class in particular is pretty simple and in most cases it's simply an identity function
- * (minus the `map`)
  */
 class Container {
   // This should be a private variable but I'm letting it public just for the unit tests.
