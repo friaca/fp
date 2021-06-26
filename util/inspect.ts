@@ -1,3 +1,4 @@
+// inspect :: a -> String
 const inspect = (x: any): string => {
   if (x && typeof x.inspect === 'function') {
     return x.inspect();
@@ -26,3 +27,7 @@ const inspect = (x: any): string => {
 
   return (typeof x === 'function') ? inspectFn(x) : inspectArgs(x);
 };
+
+export {
+  inspect
+}
